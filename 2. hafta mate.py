@@ -1,26 +1,8 @@
-# name= input("İsim=")
-# surname=input("Soyisim=")
-# country=input("Yaşadığın yer=")
+name= input("İsim=")
+surname=input("Soyisim=")
+country=input("Yaşadığın yer=")
 
-# print(f"İsmim {name} sayismim {surname} yaşadığım yer {country}.")
-
-
-
-
-
-
-
-
-
-
-
-
-# itemprice = float(input("Ürün Tutarı="))
-# discountpercentage = input("İndirim Yüzdesi= ")
-# clear= discountpercentage.replace("%", "")
-# clear = float(clear)
-
-# print(f"Ürün fiyatı {itemprice} indirim yüzdesi {discountpercentage} yeni ürün fiyatı " + str(itemprice-itemprice*clear/100) + " kar miktarı " + str(itemprice*clear/100))
+print(f"İsmim {name} sayismim {surname} yaşadığım yer {country}.")
 
 
 
@@ -32,12 +14,29 @@
 
 
 
-# birthyear= int(input("Doğum yılınız="))
-# age= 2026-birthyear
-# if age >= 18:
-#     print(f"Yaşınız {age} ehliyet alabilirsiniz.")
-# elif age<18:
-#     print(f"Yaşınız {age } Ehliyet almanız için 18 yaşını doldurmanız lazım.")
+
+itemprice = float(input("Ürün Tutarı="))
+discountpercentage = input("İndirim Yüzdesi= ")
+clear= discountpercentage.replace("%", "")
+clear = float(clear)
+
+print(f"Ürün fiyatı {itemprice} indirim yüzdesi {discountpercentage} yeni ürün fiyatı " + str(itemprice-itemprice*clear/100) + " kar miktarı " + str(itemprice*clear/100))
+
+
+
+
+
+
+
+
+
+
+birthyear= int(input("Doğum yılınız="))
+age= 2026-birthyear
+if age >= 18:
+    print(f"Yaşınız {age} ehliyet alabilirsiniz.")
+elif age<18:
+    print(f"Yaşınız {age } Ehliyet almanız için 18 yaşını doldurmanız lazım.")
 
 
 
